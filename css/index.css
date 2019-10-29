@@ -1,0 +1,207 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
+	margin:0;
+	padding:0;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	display: block;
+}
+body{
+	font-family: "微软雅黑";
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+html{
+	font-size: 26.67vw;
+}
+html,body{
+	height: 100%;
+}
+
+#box{
+	flex:1;
+	overflow-y: auto;
+}
+/*header*/
+header{
+	width: 100%;
+	/*height: 1rem;*/
+	background: yellow;
+}
+header #headerTop{
+	width: 100%;
+	/*height: .4rem;*/
+	background: yellow;
+}
+header #headerTop input{
+	display: block;
+	line-height: .3rem;
+	width: 2.3rem;
+	margin: .1rem auto;
+	border: 1px solid grey;
+	border-radius: .12rem;
+	margin-top: .1rem;
+}
+header nav{
+	width: 100%;
+	height: .6rem;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	overflow-x: auto;
+}
+header nav a{
+	font-size: .16rem;
+	margin: 0 .12rem;
+	flex-shrink: 0;
+}
+#logo{
+	display: flex;
+	justify-content: space-around;
+}
+#logo #logos{
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: 15%;
+	/* margin-top: .1rem; */
+}
+#search{
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+/*有轮播图的一部分*/
+#imgBox{
+	width: 100%;
+	height: 5rem;
+}
+#imgBox #imgTop{
+	width: 100%;
+	height: 2rem;
+	background: green;
+}
+#imgBox p{
+	width: 50%;
+	font-size: 14px;
+	margin-left: 5%;
+	color: grey;
+	margin-top: .1rem;
+}
+#imgBox #smallPic{
+ 	width: 100%;
+	display: flex;
+	margin-top: .1rem;
+	justify-content: space-around;
+	align-items: center;
+}
+#imgBox a{
+	font-size: 11px;
+	margin-left: 87%;
+	display: block;
+	margin-top: -20px;
+	color: gray;
+}
+#imgTop img{
+	width: 100%;
+	height: 2rem;
+}
+#pigTu img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+#pigTu span{
+	display: block;
+	font-size: 14px;
+	text-align: center;
+}
+#pigTu p{
+	text-align: center;
+}
+#youhui{
+	width: 100%;
+	height: 1rem;
+	margin-top: .1rem;
+	background: url(../img/index/cc4.jpg);
+	background-size: 100% 1rem;
+}
+/*蔬菜水果*/
+#huodong{
+	width: 100%;
+	margin-top: .1rem;	
+}
+#huodong p{
+	font-size: 18px;
+	text-align: center;
+	line-height: .6rem;
+}
+#mytuPian{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#huodong img{
+	width: 1.1rem;
+	height: 1.1rem;
+}
+.hanZi,.hanZiya span{
+	font-size: 14px;
+	display: block;
+	text-align: center;
+	line-height: .5rem;
+}
+
+/*民宿旅游*/
+#tour{
+	width: 100%;
+	margin-top: .1rem;	
+}
+#tour p{
+	font-size: 18px;
+	text-align: center;
+	line-height: .6rem;
+}
+#tourTop{
+	width: 3rem;
+	height: 1.5rem;
+	margin: 0 auto;
+}
+#tourTop img{
+	width: 3rem;
+	height: 1.5rem;
+	border-radius: .5rem;
+}
+.touSmall{
+	margin-top: .2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.hanZiya img{
+	width: 1.1rem;
+	height: 1.1rem;
+}
+/*footer*/
+footer{
+	width: 100%;
+	height: .7rem;
+	background: yellow;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+footer a{
+	font-size: .14rem;
+}
+footer #index{
+	color:red;
+}
